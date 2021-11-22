@@ -99,12 +99,6 @@ body{
 .header-left{
 	text-align: center;
 }
-.w3layouts-logo {
-	margin: 5em auto 0;
-}
-.w3layouts-logo h1 {
-    margin: 0;
-}
 
 .header-right{
     margin: 7em auto 0;
@@ -1819,7 +1813,7 @@ i.fa.fa-pencil{
     }
 
     .w3ls-services-right table tr td, img{
-        font-size: 20px !important;
+        font-size: 80% !important;
     }
 
 	.navbar-toggle {
@@ -1983,11 +1977,6 @@ i.fa.fa-pencil{
     .agileits-banner-info h3 span{
         font-size: 16px !important;
     }
-    
-    .w3ls-services-right table tr td, img{
-        font-size: 16px !important;
-        width: 70px;
-    }
 }
 
 @media(max-width:480px){
@@ -1996,7 +1985,7 @@ i.fa.fa-pencil{
     }
 
     .w3layouts-logo img{
-        width: 350px;
+        width: 90%
     }
 
     .w3l-welcome-img{
@@ -2053,11 +2042,6 @@ i.fa.fa-pencil{
         line-height: 20px !important;
     }
 
-    .w3ls-services-right table tr td, img{
-        font-size: 15px !important;
-        width: 60px;
-    }
-
     .w3l-welcome-img{
         width: 100%;
     }
@@ -2067,11 +2051,6 @@ i.fa.fa-pencil{
 	.callbacks_nav {
 		bottom: 25px;
 	}
-
-    .w3ls-services-right table tr td, img{
-        font-size: 13px;
-        width: 60px;
-    }
 
 	.callbacks_tabs {
 		left: 45%;
@@ -2122,7 +2101,7 @@ i.fa.fa-pencil{
 }
 @media(max-width:384px){
     .w3layouts-logo img{
-        width: 300px;
+        width: 90%
     }
 
     .agileits-banner-info h3{
@@ -2166,11 +2145,6 @@ i.fa.fa-pencil{
 }
 @media(max-width:375px){
 
-    .w3ls-services-right table tr td, img{
-        font-size: 13px !important;
-        width: 60px;
-    }
-
 	.w3layouts-banner-slider {
 		margin: 3em 0;
 	}
@@ -2178,14 +2152,10 @@ i.fa.fa-pencil{
 		height: 283px;
 	}
 
-    .w3ls-services-right table tr td, img{
-        font-size: 12px;
-        width: 57px;
-    }
 }
 @media(max-width:324px){
 	.w3layouts-logo img {
-		width: 260px;
+		width: 90%;
 	}
 	.agileits-banner-info h3 {
 		font-size: 2em;
@@ -2194,14 +2164,6 @@ i.fa.fa-pencil{
 		font-size: 14px !important;
 	}
 
-    .w3ls-services-right table tr td, img{
-        font-size: 11px !important;
-        width: 60px;
-    }
-
-	.w3layouts-logo {
-		margin: 2em auto 0;
-	}
 	.callbacks_tabs {
 		left: 42%;
 	}
