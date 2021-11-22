@@ -338,6 +338,10 @@ ul.dropdown-menu {
     letter-spacing: 2px;
 }
 
+.agileits-heading p{
+    color: #fff !important;
+}
+
 .table-services tr td{
     color: #fff;
     font-size: 17px;
@@ -1703,6 +1707,8 @@ i.fa.fa-pencil{
 	.w3l-welcome-left h2, .w3l-welcome-right h3, .w3ls-services-right h3, .agileits-heading h3, .wthree-heading h2 {
 		font-size: 1.9em;
 	}
+
+
 	.captn {
 		left: 13%;
 		width: 172px;
