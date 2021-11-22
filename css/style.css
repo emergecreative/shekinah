@@ -382,7 +382,7 @@ ul.dropdown-menu {
     border-color: #fff;
 }
 .w3l-button {
-    margin: 2em 0 1em 0;
+    margin: 7.5em 0 1em 0;
 }
 .w3l-button a {
 	color: #FFFFFF;
@@ -1708,6 +1708,9 @@ i.fa.fa-pencil{
 		font-size: 1.9em;
 	}
 
+    .w3l-button{
+        margin-top: 70px;
+    }
 
 	.captn {
 		left: 13%;
@@ -1728,15 +1731,24 @@ i.fa.fa-pencil{
 		width: 79%;
 	}
 	.w3ls-services-left {
-		min-height: 647px;
+		min-height: 540px;
 	}
 }
 @media(max-width:991px){
 	.top-nav {
 		width: 82%;
 	}
+
+    .w3l-welcome-img{
+        border: none;
+    }
+
+    .w3l-button{
+        margin-top: 0;
+    }
+
 	.w3l-welcome-img {
-		width: 50%;
+		width: 70%;
 		margin: 2em 0;
 	}
 	.w3ls-services-left {
@@ -1801,6 +1813,15 @@ i.fa.fa-pencil{
 	}
 }
 @media(max-width:768px){
+    .agileits-banner-info h3{
+        font-size: 4.5em;
+        line-height: 60px;
+    }
+
+    .w3ls-services-right table tr td, img{
+        font-size: 20px !important;
+    }
+
 	.navbar-toggle {
 		float: none;
 		margin-right: 0;
@@ -1847,9 +1868,18 @@ i.fa.fa-pencil{
 	}
 }
 @media(max-width:640px){
+    .header-top{
+        font-size: 15px;
+    }
+
 	.agileits-banner-info h3 {
-		font-size: 3em;
+		font-size: 4em;
 	}
+
+    .agileits-banner-info p {
+		font-size: 2em;
+	}
+
 	.callbacks_tabs {
 		left: 46%;
 		top: 106%;
@@ -1895,6 +1925,11 @@ i.fa.fa-pencil{
 	}
 }
 @media(max-width:600px){
+
+    .agileits-banner-info h3{
+        font-size:  3.5em;
+    }
+
 	.work-grid-caption {
 		height: 230px;
 	}
@@ -1903,9 +1938,14 @@ i.fa.fa-pencil{
 	}
 }
 @media(max-width:568px){
+    .header-top{
+        font-size: 13px;
+    }
+
 	.w3l-welcome-img {
 		background: url(../images/2.jpg) no-repeat 0px 0px;
 		background-size: cover;
+        width: 100%;
 	}
 	.w3ls-services-left {
 		min-height: 365px;
@@ -1918,8 +1958,8 @@ i.fa.fa-pencil{
 		height: 208px;
 		padding: 2em 1em 1em 1em;
 	}
-	.w3layouts-logo {
-		margin: 3em auto 0;
+	.w3layouts-logo img{
+		width: 400px;
 	}
 	.about-top {
 		margin: 3em auto 0 !important;
@@ -1930,7 +1970,39 @@ i.fa.fa-pencil{
 		padding: .9em 0 0 0;
 	}
 }
+
+@media (max-width: 515px) {
+    .agileits-banner-info h3{
+        font-size: 3em;
+    }
+
+    .container-servicos img{
+        width: 100%;
+    }
+
+    .agileits-banner-info h3 span{
+        font-size: 16px !important;
+    }
+    
+    .w3ls-services-right table tr td, img{
+        font-size: 16px !important;
+        width: 70px;
+    }
+}
+
 @media(max-width:480px){
+    .header-top{
+        display: none;
+    }
+
+    .w3layouts-logo img{
+        width: 350px;
+    }
+
+    .w3l-welcome-img{
+        width: 100%;
+    }
+
 	.icon-right {
 		width: 100%;
 		float: none;
@@ -1942,9 +2014,7 @@ i.fa.fa-pencil{
 		height: 347px;
 		padding: 7em 1em 1em 1em;
 	}
-	.agileits-banner-info h3 {
-		font-size: 2em;
-	}
+
 	.testimonial-info h4 {
 		font-size: 1.2em;
 	}
@@ -1972,15 +2042,39 @@ i.fa.fa-pencil{
 		font-size: 1.5em;
 	}
 }
+
+@media (max-width: 437px) {
+    .agileits-banner-info h3{
+        font-size: 2.5em;
+        line-height: 40px;
+    }
+
+    .agileits-banner-info h3 span{
+        line-height: 20px !important;
+    }
+
+    .w3ls-services-right table tr td, img{
+        font-size: 15px !important;
+        width: 60px;
+    }
+
+    .w3l-welcome-img{
+        width: 100%;
+    }
+}
+
 @media(max-width:414px){
 	.callbacks_nav {
 		bottom: 25px;
 	}
+
+    .w3ls-services-right table tr td, img{
+        font-size: 13px;
+        width: 60px;
+    }
+
 	.callbacks_tabs {
 		left: 45%;
-	}
-	.w3layouts-logo h1 a {
-		font-size: .7em;
 	}
 	.welcome, .work, .testimonial-dot, .wthree-subscribe, .w3-agile-footer, .about, .team-dot, .agileits-about-top, .gallery, .codes, .typography, .blog, .contact-top {
 		padding: 2em 0;
@@ -2027,9 +2121,19 @@ i.fa.fa-pencil{
 	}
 }
 @media(max-width:384px){
+    .w3layouts-logo img{
+        width: 300px;
+    }
+
+    .agileits-banner-info h3{
+        font-size: 2em;
+        line-height: 30px;
+    }
+
 	.w3l-welcome-img {
 		width: 100%;
 	}
+
 	.w3ls-services-left {
 		min-height: 244px;
 	}
@@ -2061,23 +2165,40 @@ i.fa.fa-pencil{
 	}
 }
 @media(max-width:375px){
+
+    .w3ls-services-right table tr td, img{
+        font-size: 13px !important;
+        width: 60px;
+    }
+
 	.w3layouts-banner-slider {
 		margin: 3em 0;
 	}
 	.work-grid-caption {
 		height: 283px;
 	}
+
+    .w3ls-services-right table tr td, img{
+        font-size: 12px;
+        width: 57px;
+    }
 }
-@media(max-width:320px){
-	.w3layouts-logo h1 a {
-		font-size: .6em;
+@media(max-width:324px){
+	.w3layouts-logo img {
+		width: 260px;
 	}
 	.agileits-banner-info h3 {
-		font-size: 1.2em;
+		font-size: 2em;
 	}
 	.agileits-banner-info h3 span {
-		margin: 1em 0 0 0;
+		font-size: 14px !important;
 	}
+
+    .w3ls-services-right table tr td, img{
+        font-size: 11px !important;
+        width: 60px;
+    }
+
 	.w3layouts-logo {
 		margin: 2em auto 0;
 	}
