@@ -1555,9 +1555,9 @@ i.fa.fa-pencil{
 .mail-grids {
 	margin: 4em 0 0 0;
 }
+
 .mail-grid-left h3 {
 	margin: 0 0 .5em 0;
-    color: #ee3537;
     font-size: 1.5em;
     font-family: 'Montserrat', sans-serif;
     text-transform: uppercase;
@@ -1582,14 +1582,18 @@ i.fa.fa-pencil{
     margin: .5em 0;
 }
 .mail-grid-left p {
-    color: #BBBBBB;
     font-size: .875em;
     margin: 1em 0;
     line-height: 1.8em;
 }
 .mail-grid-left p a{
-    color: #ee3537;
     text-decoration: none;
+    color: #000;
+}
+
+.mail-grid-left p a:hover{
+    text-decoration: none;
+    color: #000;
 }
 .mail-grid-left p span {
   display: block;
