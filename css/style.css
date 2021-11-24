@@ -1,9 +1,80 @@
-/*--A Design by W3layouts 
-Author: W3layout
-Author URL: http://w3layouts.com
-License: Creative Commons Attribution 3.0 Unported
-License URL: http://creativecommons.org/licenses/by/3.0/
---*/
+/*--------------------------------------------------------------
+Cookies
+--------------------------------------------------------------*/
+.cookiealert{
+    padding: 25px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    margin: 0 !important;
+    z-index: 999;
+    opacity: 0;
+    visibility: hidden;
+    border-radius: 0;
+    transform: translateY(100%);
+    transition: all 500ms ease-out;
+    color: #ecf0f1;
+    background: #212327;
+}
+
+.cookiealert.show {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0%);
+    transition-delay: 1000ms;
+}
+
+.cookiealert h3{
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.cookiealert p{
+    line-height: 15px;
+    max-width: 100ch;
+    font-size: 14px;
+    color: #fff;
+}
+
+.cookiealert .politica-cookie{
+    margin: 10px 0;
+}
+
+.cookiealert .acceptcookies {
+    position: absolute;
+    right: 0;
+    margin: 0 40px 20px 0;
+}
+
+.cookiealert .acceptcookies, .acceptcookies-mobile{
+    background-color: #db1416;
+    font-size: 15px;
+    border: none;
+
+}
+
+@media (min-width:520px) {
+    .cookiealert .acceptcookies-mobile{
+        display: none;
+    }
+}
+
+@media (max-width:520px) {
+    .cookiealert .acceptcookies{
+        display: none;
+    }
+    
+    .cookiealert{
+        text-align: center;
+    }
+    .cookiealert .acceptcookies{
+        position: fixed;
+    }
+}
+
+/*----------------------------------------------------------*/
+
 body a {
   transition: 0.5s all;
   -webkit-transition: 0.5s all;
@@ -247,6 +318,11 @@ ul.dropdown-menu {
 .w3layouts-banner-slider {
 	margin: 8em 0;
 }
+
+.w3layouts-logo{
+    margin-top: 5%;
+}
+
 .agileits-banner-info {
 	text-align:center;
 }
@@ -346,7 +422,8 @@ ul.dropdown-menu {
 }
 
 .table-services tr td img{
-    padding: 0 10px 0 0;
+    padding: 0 0 10px 0;
+    width: 45px;
 }
 
 .w3l-welcome-left h5,.w3l-welcome-right h5{
@@ -401,7 +478,7 @@ ul.dropdown-menu {
 .w3ls-services-left{
 	background:url(../images/3.jpg) no-repeat 0px 0px;
 	background-size:cover;
-	min-height:540px;
+	min-height:515px;
 }
 .w3ls-services-right{
     padding: 0 0 1em 0;
@@ -536,6 +613,16 @@ i.fa.fa-cog,i.fa.fa-heart,i.fa.fa-gavel{
 .work-grid-info img{
 	width:100%;
 }
+
+.work-grid-info img{
+	width:100%;
+}
+
+.work-grid-info .imagem-icone{
+	width:30%;
+    margin-bottom: 10px;
+}
+
 i.fa.fa-wrench{
     color: #FFFFFF;
     font-size: 2em;
@@ -1321,6 +1408,10 @@ h2.typoh2{
 	.pagination {
 		margin: 20px 0 0px;
 	}
+
+    .w3layouts-logo{
+        margin-top: 10%;
+    }
 }
 @media (max-width: 320px){
 	.grid_4 {
@@ -1656,12 +1747,12 @@ i.fa.fa-pencil{
 	bottom: 20px;
 	right: 2%;
 	overflow: hidden;
-	z-index: 999; 
+	z-index: 999;
 	width: 40px;
 	height: 40px;
 	border: none;
 	text-indent: 100%;
-	background: url(../images/arrow.png) no-repeat 0px 0px;
+	background: url(../images/arrow2.png) no-repeat 0px 0px;
 }
 #toTopHover {
 	width: 40px;
@@ -2148,6 +2239,9 @@ i.fa.fa-pencil{
 	}
 }
 @media(max-width:375px){
+    .w3ls-services-right table tr td, img{
+        font-size: 70% !important;
+    }
 
 	.w3layouts-banner-slider {
 		margin: 3em 0;
