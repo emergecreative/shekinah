@@ -75,12 +75,10 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						</p>
 					</div>
 					<div class="header-top-right">
-						<p>
-							<img src="images/icon/whatsapp.png" alt="">
-							<a
-								href="https://api.whatsapp.com/send?phone=5511957038547" target="_blank"
-								style="text-decoration: none"> (11) 95703-8547</a></p>
-					</div>
+						<p><a href="https://api.whatsapp.com/send?phone=5511957038547" target="_blank"
+								style="text-decoration: none"> <img src="images/icon/whatsapp.png" width="12px" alt="">
+								(11) 95703-8547</a></p>
+					</div>0
 					<div class="header-top-right">
 						<p><i class="fa fa-phone" aria-hidden="true"></i> <a href="tel:+551140444834" target="_blank"
 								style="text-decoration: none"> +55 (11) 4044-4834</a></p>
@@ -154,14 +152,50 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						(11) 95703-8547</a></span>
 					<p>E-mail: <a href="autoestufashekinah@gmail.com">autoestufashekinah@gmail.com</a></p>
 				</div>
-				<div class="col-md-6 contact-form">
-					<form action="#" method="post">
-						<input type="text" name="Nome" placeholder="Nome" required="">
-						<input type="email" name="Email" placeholder="Email" required="">
-						<textarea name="Mensagem" placeholder="Mensagem" required=""></textarea>
-						<input type="submit" value="Enviar">
+				<div class="col-md-6 col-lg-6 inset-lg-left-80"><a id="ContatoRetorno"><strong></strong></a>
+					<form method="POST" name="contato" id="form-contato">
+						<div class="row">
+							<div class="col-xl-8">
+								<div class="form-group">
+									<label class="form-label" for="formnome">Nome</label>
+									<input class="form-control" id="formnome" type="text" name="formnome" required>
+								</div>
+							</div>
+							<div class="col-xl-4 offset-top-20 offset-xl-top-0">
+								<div class="form-group">
+									<label class="form-label" for="formcelular">Celular</label>
+									<input class="form-control" id="formcelular" type="text" name="formcelular" required>
+								</div>
+							</div>
+							<div class="col-xl-12 offset-top-20 offset-xl-top-30">
+								<div class="form-group">
+									<label class="form-label" for="formemail">E-Mail</label>
+									<input class="form-control" id="formemail" type="email" name="formemail" required>
+								</div>
+							</div>
+							<div class="col-xl-12 offset-top-20 offset-xl-top-30">
+								<div class="form-group">
+									<label class="form-label" for="formmensagem">Mensagem</label>
+									<textarea class="form-control" id="formmensagem" name="formmensagem" required style="height: 150px"></textarea>
+								</div>
+							</div>
+						</div>
+						<br>
+						<br>
+						<div class="g-recaptcha" data-sitekey="6LctHK8UAAAAAJbte4uLKqvVysnkhtQUCoZtFK_8"></div>
+						<br />
+						<input type="hidden" name="Action" value="Validar">
+
+						<div class="row justify-content-sm-left justify-content-xl-left text-center text-xl-left offset-top-30">
+							<div class="col-sm-4 col-md-4	">
+								<input class="btn btn-lg btn-block btn-primary" value="Enviar" id="enviar-form" readonly onclick="RegistrarFormContato()">
+							</div>
+							<div class="col-sm-4 col-md-8" id="status-form"></div>
+						</div>
 					</form>
 				</div>
+				<script src="../js/ajax.js"></script>
+				<script src="https://www.google.com/recaptcha/api.js" async defer></script>
 				<div class="clearfix"> </div>
 			</div>
 		</div>

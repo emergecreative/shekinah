@@ -445,7 +445,7 @@ ul.dropdown-menu {
 	display:block;
 }
 .w3l-welcome-img{
-    background: url(../images/2.jpg) no-repeat 0px -43px;
+    background: url(../images/banner-sobre.png) no-repeat 0px -43px;
     background-size: cover;
     min-height: 540px;
     border-width: 0 1.2em;
@@ -476,7 +476,7 @@ ul.dropdown-menu {
 /*-- about --*/
 /*-- services --*/
 .w3ls-services-left{
-	background:url(../images/3.jpg) no-repeat 0px 0px;
+	background:url(../images/banner-servicos.png) no-repeat 0px 0px;
 	background-size:cover;
 	min-height:515px;
 }
@@ -633,24 +633,20 @@ i.fa.fa-wrench{
     font-weight: 800;
     font-family: 'Montserrat', sans-serif;
 }
-.work-grid-caption p{
-    color: #c5c5c5;
-    font-size: .9em;
-    margin: 0;
-}
 .work-grid-caption {
 	background: rgba(0, 0, 0, 0.61);
-    padding: 7em 1em 1em 1em;
+    padding-top: 15%;
     position: absolute;
     left: 0;
-    bottom: -105%;
+    bottom: -100%;
     text-align: center;
     width: 100%;
-    height: 312px;
+    height: 100%;
     -webkit-transition: .5s all;
     transition: .5s all;
     -moz-transition: .5s all;
 }
+
 .work-grid-info:hover .work-grid-caption{
     bottom: 0%;
 }
