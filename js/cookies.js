@@ -8,6 +8,7 @@
 
     var cookieAlert = document.querySelector(".cookiealert");
     var acceptCookies = document.querySelector(".acceptcookies");
+    var acceptCookiesMobile = document.querySelector(".acceptcookies-mobile");
 
     if (!cookieAlert) {
        return;
@@ -23,6 +24,13 @@
     // When clicking on the agree button, create a 1 year
     // cookie to remember user's choice and close the banner
     acceptCookies.addEventListener("click", function () {
+        setCookie("acceptCookies", true, 365);
+        cookieAlert.classList.remove("show");
+
+        // dispatch the accept event
+        window.dispatchEvent(new Event("cookieAlertAccept"))
+    });
+    acceptCookiesMobile.addEventListener("click", function () {
         setCookie("acceptCookies", true, 365);
         cookieAlert.classList.remove("show");
 
