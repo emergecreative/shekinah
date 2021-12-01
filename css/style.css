@@ -57,11 +57,10 @@ Cookies
 @media (max-width:520px) {
     .cookiealert .acceptcookies{
         bottom: -13px;
-        left: 80px;
+        left: 5px;
     }
 
     .cookiealert{
-        text-align: center;
         padding: 20px 10px 40px 10px !important;
     }
     .cookiealert .acceptcookies{
