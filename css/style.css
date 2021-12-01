@@ -1740,6 +1740,24 @@ i.fa.fa-pencil{
 	background: none;
 }
 /*-- //contact --*/
+/*-- //Politica --*/
+.politica-box{
+    background-color: #f5f5f5;
+    padding: 50px;
+    margin: 50px;
+    border-radius: 10px;
+}
+
+.politica-box h1{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    padding-bottom: 50px;
+}
+
+.politica-box a{
+    color: #db1416;
+}
 /*-- to-top --*/
 #toTop {
 	display: none;
