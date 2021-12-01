@@ -1837,6 +1837,9 @@ i.fa.fa-pencil{
 }
 
 @media(max-width:991px){
+    .agileits-heading h3{
+     line-height: 28px;   
+    }
 	.top-nav {
 		width: 82%;
 	}
@@ -1915,6 +1918,7 @@ i.fa.fa-pencil{
 @media(max-width:800px){
 	.w3ls-services-left {
 		width: 100%;
+        min-height: 300px;
 		float: none;
 	}
 	.w3ls-services-right {
@@ -2148,8 +2152,9 @@ i.fa.fa-pencil{
         line-height: 40px;
     }
 
-    .agileits-banner-info h3 span{
-        line-height: 20px !important;
+    .agileits-banner-info p{
+        line-height: 25px !important;
+        font-size: 14px !important;
     }
 
     .w3l-welcome-img{
@@ -2158,6 +2163,13 @@ i.fa.fa-pencil{
 }
 
 @media(max-width:414px){
+    .table-services tr td img{
+        width: 30px;
+    }
+    .table-services a{
+        font-size: 10px;
+    }
+
 	.callbacks_nav {
 		bottom: 25px;
 	}
@@ -2263,6 +2275,12 @@ i.fa.fa-pencil{
 
 }
 @media(max-width:324px){
+    .table-services tr td img{
+        width: 25px;
+    }
+    .table-services a{
+        font-size: 8px;
+    }
 	.w3layouts-logo img {
 		width: 90%;
 	}
