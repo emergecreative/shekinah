@@ -873,8 +873,11 @@ hr{
     color: #BBBBBB;
 }
 .agileits-w3layouts-copyright p a{
-    color: #FFFFFF;	
+    color: #BBBBBB;	
 	text-decoration:none;
+}
+.agileits-w3layouts-copyright p a:hover{
+    color: #ffffff;	
 }
 
 .agile-footer-grid ul {
@@ -1756,7 +1759,13 @@ i.fa.fa-pencil{
 }
 
 .politica-box a{
-    color: #db1416;
+    color: #333333;
+    font-weight: bold;
+}
+
+.politica-box a:hover{
+    color: #333333;
+    font-weight: bold;
 }
 /*-- to-top --*/
 #toTop {
