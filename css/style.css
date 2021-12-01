@@ -96,7 +96,17 @@ body{
 }
 /*-- banner --*/
 .banner{
-	background: url(../images/1.jpg) no-repeat 0px 0px;
+	background: url(../images/banner_pagina_inicio.jpg) no-repeat 0px 0px;
+    background-size: cover;
+}
+
+.banner1{
+	background: url(../images/banner_pagina_servicos.jpg) no-repeat 0px 0px;
+    background-size: cover;
+}
+
+.banner2{
+	background: url(../images/banner_pagina_contato.jpg) no-repeat 0px 0px;
     background-size: cover;
 }
 
@@ -335,12 +345,12 @@ ul.dropdown-menu {
     line-height: 70px;
 
 }
-.agileits-banner-info h3 span{
+.agileits-banner-info p{
 	display: block;
     font-weight: 400;
     color: #FFFFFF !important;
     font-size: 20px !important;
-    margin: 0 6em !important; 
+    margin: 1em 4em !important; 
     line-height: 30px !important;
 }
 .w3-button{
@@ -391,8 +401,8 @@ ul.dropdown-menu {
     font-size: 2em;
     color: #fff;
     text-decoration: none;
-    font-weight: 700;
-    margin: 1.5em 0 0 1em;
+    font-weight: bold;
+    margin: 2em 0;
     font-family: 'Montserrat', sans-serif;
     letter-spacing: 1px;
 }
@@ -409,21 +419,25 @@ ul.dropdown-menu {
 }
 
 .agileits-heading p{
+    padding-top: 5px;
     color: #fff !important;
 }
 
 .table-services tr td{
     color: #fff;
     font-size: 17px;
-    padding: 1.5em .5em 1.5em .5em;
+    padding: 1em 0;
     text-align: center;
     font-weight: bold;
-
 }
 
 .table-services tr td img{
     padding: 0 0 10px 0;
     width: 45px;
+}
+
+.table-services{
+    margin: 0 0 3em 0;
 }
 
 .w3l-welcome-left h5,.w3l-welcome-right h5{
@@ -476,17 +490,21 @@ ul.dropdown-menu {
 /*-- about --*/
 /*-- services --*/
 .w3ls-services-left{
-	background:url(../images/banner-servicos.png) no-repeat 0px 0px;
+	background-image: url(../images/banner-servicos.png);
 	background-size:cover;
-	min-height:515px;
+	min-height:551px;
 }
 .w3ls-services-right{
-    padding: 0 0 1em 0;
+    padding: 0 4%;
     background: #0f1215;
 }
 
 .w3ls-services-right h3{
-    padding: 0 0 0 2em;
+    text-align: center;
+}
+
+.w3ls-services-right a{
+    font-size: 14px;
 }
 
 .w3ls-services-icons{
@@ -619,7 +637,7 @@ i.fa.fa-cog,i.fa.fa-heart,i.fa.fa-gavel{
 }
 
 .work-grid-info .imagem-icone{
-	width:30%;
+	width:15%;
     margin-bottom: 10px;
 }
 
@@ -635,7 +653,7 @@ i.fa.fa-wrench{
 }
 .work-grid-caption {
 	background: rgba(0, 0, 0, 0.61);
-    padding-top: 15%;
+    padding: 20% 5% 0 5%;
     position: absolute;
     left: 0;
     bottom: -100%;
@@ -653,12 +671,17 @@ i.fa.fa-wrench{
 /*-- //work --*/
 /*-- testimonial --*/
 .testimonial{
-	background: url(../images/1.jpg) no-repeat 0px 0px;
+	background: url(../images/banner_pagina_inicio.jpg) no-repeat 0px 0px;
     background-size: cover;
 }
 
-.testimonial-heading h3, p{
-	color:#FFFFFF;
+.testimonial1{
+	background: url(../images/banner_pagina_servicos.jpg) no-repeat 0px 0px;
+    background-size: cover;
+}
+
+.testimonial-heading h3{
+    color: #fff;
     line-height: 40px;
 }
 .testimonial-info {
@@ -887,17 +910,19 @@ ul.w3agile_footer_grid_list i.fa.fa-twitter {
     margin: 4em 0;
 }
 
-.container-servicos h4, p{
+.container-servicos img{
+    margin-top: 10px;
+    width: 100%;
+    height: 100%;
+}
+
+.container-servicos h4{
     color: #2f2f2f;
 }
 
 .container-servicos h4{
     font-size: 30px;
     font-weight: bolder;
-}
-
-.container-servicos p{
-    line-height: 30px;
 }
 
 .container-escuro{
@@ -909,21 +934,6 @@ ul.w3agile_footer_grid_list i.fa.fa-twitter {
 
 /*-- //about --*/
 /*-- team --*/
-.team{
-	background: url(../images/4.jpg) no-repeat 0px 0px;
-    background-size: cover;
-}
-.team-dot {
-    background: url(../images/dott.png)repeat 0px 0px;
-    background-size: 3px;
-    -webkit-background-size: 3px;
-    -moz-background-size: 3px;
-    -o-background-size: 3px;
-    -ms-background-size: 3px;
-}
-.team-heading h3{
-	color:#FFFFFF;
-}
 .agileinfo-team-grid{
 	position:relative;
 	overflow: hidden;
@@ -1762,32 +1772,46 @@ i.fa.fa-pencil{
 }
 /*-- //to-top --*/
 /*-- responsive --*/
-@media(max-width:1440px){
-	.work-grid-caption {
-		height: 280px;
+
+@media (max-width:2341px) {
+    .w3ls-services-left {
+		min-height: 551px;
 	}
 }
-@media(max-width:1366px){
-	.work-grid-caption {
-		height: 265px;
+
+@media (max-width:1468px) {
+    .w3ls-services-left {
+		min-height: 624px;
 	}
 }
-@media(max-width:1280px){
-	.work-grid-caption {
-		height: 249px;
+
+@media(max-width:1093px){
+	.w3ls-services-left{
+        min-height: 648px;
+    }
+}
+
+@media(max-width:1024px){
+	.icon-right {
+		width: 79%;
 	}
 }
 @media(max-width:1080px){
 	.top-nav {
 		width: 65%;
 	}
-	.w3ls-services-left {
-		min-height: 574px;
-	}
 	.work-grid-caption {
-		height: 210px;
-		padding: 4em 1em 1em 1em;
+		height: 170px;
+        font-size: 10px;
 	}
+
+    .w3ls-services-left{
+        min-height: 640px;
+    }
+
+    .w3ls-services-right a{
+        font-size: 15px;
+    }
 	
 	.w3l-welcome-left h2, .w3l-welcome-right h3, .w3ls-services-right h3, .agileits-heading h3, .wthree-heading h2 {
 		font-size: 1.9em;
@@ -1811,14 +1835,7 @@ i.fa.fa-pencil{
 		padding: 8px 4px;
 	}
 }
-@media(max-width:1024px){
-	.icon-right {
-		width: 79%;
-	}
-	.w3ls-services-left {
-		min-height: 540px;
-	}
-}
+
 @media(max-width:991px){
 	.top-nav {
 		width: 82%;
@@ -1838,17 +1855,25 @@ i.fa.fa-pencil{
 	}
 	.w3ls-services-left {
 		width: 40%;
-		min-height: 491px;
 		float: left;
+        min-height: 650px;
 	}
 	.w3ls-services-right {
 		width: 60%;
 		float: left;
 		padding: 2em;
 	}
+
+    .w3ls-services-right a{
+		font-size: 13px;
+	}
+
+    .table-services tr td img{
+        width: 35px;
+    }
+
 	.work-grid-caption {
-		height: 192px;
-		padding: 3em 1em 1em 1em;
+		height: 155px;
 	}
 	.callbacks_tabs {
 		left: 47%;
@@ -1882,10 +1907,14 @@ i.fa.fa-pencil{
 		margin: 2em 0 0 0;
 	}
 }
+@media(max-width:958px){
+	.w3ls-services-left {
+		min-height: 674px;
+	}
+}
 @media(max-width:800px){
 	.w3ls-services-left {
 		width: 100%;
-		min-height: 500px;
 		float: none;
 	}
 	.w3ls-services-right {
@@ -1893,8 +1922,7 @@ i.fa.fa-pencil{
 		float: none;
 	}
 	.work-grid-caption {
-		height: 155px;
-		padding: 2em 1em 1em 1em;
+		height: 135px;
 	}
 }
 @media(max-width:768px){
@@ -1912,7 +1940,7 @@ i.fa.fa-pencil{
 		margin-right: 0;
 	}
 	.w3layouts-banner-slider {
-		margin: 6em 0;
+		margin: 6em 0 3em 0;
 	}
 	.top-nav ul li {
 		display: block;
@@ -1945,8 +1973,7 @@ i.fa.fa-pencil{
 		padding: .5em 0;
 	}
 	.work-grid-caption {
-		height: 271px;
-		padding: 5em 1em 1em 1em;
+		height: 215px;
 	}
 	.wthree-top-grid:nth-child(2){
 		margin:2em 0;
@@ -1979,7 +2006,7 @@ i.fa.fa-pencil{
 		padding: 0em 0 2em;
 	}
 	.work-grid-caption {
-		height: 246px;
+		height: 200px;
 	}
 	.testimonial-info {
 	    float: none;
@@ -2028,15 +2055,11 @@ i.fa.fa-pencil{
     }
 
 	.w3l-welcome-img {
-		background: url(../images/2.jpg) no-repeat 0px 0px;
 		background-size: cover;
         width: 100%;
 	}
-	.w3ls-services-left {
-		min-height: 365px;
-	}
 	.work-grid-caption {
-		height: 218px;
+		height: 175px;
 	}
 	.captn {
 		width: 208px;
@@ -2061,9 +2084,9 @@ i.fa.fa-pencil{
         font-size: 3em;
     }
 
-    .container-servicos img{
-        width: 100%;
-    }
+    .work-grid-caption {
+		height: 160px;
+	}
 
     .agileits-banner-info h3 span{
         font-size: 16px !important;
@@ -2091,8 +2114,7 @@ i.fa.fa-pencil{
 		float: none;
 	}
 	.work-grid-caption {
-		height: 347px;
-		padding: 7em 1em 1em 1em;
+		height: 290px;
 	}
 
 	.testimonial-info h4 {
@@ -2100,9 +2122,6 @@ i.fa.fa-pencil{
 	}
 	.wthree-testimonial-grid {
 		margin: 2em 0 0 0;
-	}
-	.w3ls-services-left {
-		min-height: 310px;
 	}
 	.captn {
 		width: 160px;
@@ -2156,7 +2175,7 @@ i.fa.fa-pencil{
 		margin: 2em 0 0 0;
 	}
 	.work-grid-caption {
-		height: 313px;
+		height: 260px;
 	}
 	.w3l-welcome-left h2, .w3l-welcome-right h3, .w3ls-services-right h3, .agileits-heading h3, .wthree-heading h2 {
 		font-size: 1.5em;
@@ -2203,10 +2222,6 @@ i.fa.fa-pencil{
 	.w3l-welcome-img {
 		width: 100%;
 	}
-
-	.w3ls-services-left {
-		min-height: 244px;
-	}
 	.testimonial-img {
 		width: 90%;
 	}
@@ -2243,7 +2258,7 @@ i.fa.fa-pencil{
 		margin: 3em 0;
 	}
 	.work-grid-caption {
-		height: 283px;
+		height: 220px;
 	}
 
 }
@@ -2264,12 +2279,8 @@ i.fa.fa-pencil{
 	.header-right {
 		margin: 3em auto 0;
 	}
-	.w3ls-services-left {
-		min-height: 200px;
-	}
 	.work-grid-caption {
-		height: 238px;
-		padding: 5em 1em 1em 1em;
+		height: 205px;
 	}
 	.testimonial-img-right h5 {
 		font-size: .9em;
