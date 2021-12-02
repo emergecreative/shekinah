@@ -57,7 +57,7 @@ Cookies
 @media (max-width:520px) {
     .cookiealert .acceptcookies{
         bottom: -13px;
-        left: 5px;
+        left: 10px;
     }
 
     .cookiealert{
