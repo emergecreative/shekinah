@@ -804,7 +804,7 @@ button.btn1:hover{
     text-align: center;
 }
 
-.social ul li a i.fa.fa-facebook,.social ul li a i.fa.fa-instagram,.social ul li a i.fa.fa-linkedin, ul li a i.fa.fa-phone{
+.social ul li a i.fa.fa-facebook,.social ul li a i.fa.fa-instagram,.social ul li a i.fa.fa-linkedin, ul li a i.fa.fa-whatsapp{
     height: 40px;
     width: 40px;
     background: #383838;
@@ -843,7 +843,7 @@ button.btn1:hover{
 	background: #007dbb;
 }
 
-.social ul li a i.fa.fa-phone:hover{
+.social ul li a i.fa.fa-whatsapp:hover{
     height: 40px;
     width: 40px;
     line-height: 40px;
@@ -1806,7 +1806,7 @@ i.fa.fa-pencil{
 	height: 40px;
 	border: none;
 	text-indent: 100%;
-	background: url(../images/arrow2.png) no-repeat 0px 0px;
+	background: url(../images/arrow.png) no-repeat 0px 0px;
 }
 #toTopHover {
 	width: 40px;
